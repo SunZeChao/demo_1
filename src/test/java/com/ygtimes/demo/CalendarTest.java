@@ -17,7 +17,7 @@ public class CalendarTest {
         // String strDate = args[1];
         // 得到日期格式对象
         // Date date = fmtDateTime.parse(strDate);
-
+        System.out.println();
         // 完整显示今天日期时间
         String str = (new SimpleDateFormat("yyyy-MM-dd hh:mm:ss:SSS")).format(new Date());
         System.out.println(str);
